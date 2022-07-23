@@ -1,0 +1,20 @@
+{
+  "name": "challenges",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "tsc": "tsc --project tsconfig.json",
+    "new-years": "node ./build/hackerrank/new-years.js --test-case=0",
+    "longest-word": "ts-node src/cracking-the-coding-interview/longest-word.ts",
+    "iteratee": "ts-node src/company-interviews/iteratee.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^17.0.31",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.7.4"
+  }
+}
