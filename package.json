@@ -7,6 +7,7 @@
     "tsc": "tsc --project tsconfig.json",
     "new-years": "node ./build/hackerrank/new-years.js --test-case=0",
     "longest-word": "ts-node src/cracking-the-coding-interview/longest-word.ts",
+    "letters-and-numbers": "ts-node src/cracking-the-coding-interview/letters-and-numbers.ts",
     "iteratee": "ts-node src/company-interviews/iteratee.ts",
     "test": "jest"
   },
