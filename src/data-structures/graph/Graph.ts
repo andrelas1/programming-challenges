@@ -3,14 +3,14 @@ export enum GraphType {
   Tree = "Tree",
 }
 
-type GraphNode = {
+export type GraphNode = {
   name: string;
-  adjacents: string[];
-  visited?: false;
+  adjacents?: GraphNode[];
+  marked?: boolean;
 };
 
 export class Graph {
-  nodes: Map<string, string[]>;
+  nodes: Map<string, GraphNode[]>;
   type: GraphType;
 
   constructor(type: GraphType) {
@@ -18,7 +18,7 @@ export class Graph {
     this.type = type;
   }
 
-  addNode(name: string, adjacents: string[]): string {
+  addNode(name: string, adjacents: GraphNode[]): string {
     this.nodes.set(name, adjacents);
 
     return name;
