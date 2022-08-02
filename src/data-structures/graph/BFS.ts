@@ -2,7 +2,7 @@ import { Queue } from "../queue/queue";
 import { GraphNode } from "./Graph";
 
 function visit(node: GraphNode) {
-  console.log("IT WAS VISITED", node);
+  console.log("IT WAS VISITED", node.name);
 }
 
 function BFS(node: GraphNode, cb: (el: GraphNode) => void): void {

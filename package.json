@@ -10,6 +10,7 @@
     "letters-and-numbers": "ts-node src/cracking-the-coding-interview/letters-and-numbers.ts",
     "iteratee": "ts-node src/company-interviews/iteratee.ts",
     "bfs": "ts-node src/data-structures/graph/BFS.ts",
+    "dfs": "ts-node src/data-structures/graph/DFS.ts",
     "test": "jest"
   },
   "keywords": [],
